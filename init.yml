@@ -1,0 +1,11 @@
+---
+- name: Initial server setup
+  hosts: all
+  become: yes
+
+  tasks: 
+    - name: Install packages from vars.yml
+      apt: name={{ item }} state=present update_cache=yes
+      with_items:
+          - "{{ packages }}"
+

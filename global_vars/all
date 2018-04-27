@@ -1,0 +1,6 @@
+packages:
+    - nano
+
+server_username: vagrant
+server_password: vagrant
+ssh_public_key: ~/.ssh/id_rsa.pub

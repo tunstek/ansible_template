@@ -1,0 +1,4 @@
+--- Ansible Template
+
+- Modify the hosts file for whatever IPs you want to use
+- Originally used as a template for a Kubernetes deployment

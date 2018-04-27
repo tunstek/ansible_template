@@ -1,0 +1,9 @@
+[master]
+X.X.X.X ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+	
+[slave]
+X.X.X.X ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+
+[all:children]
+master
+slave
